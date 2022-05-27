@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Lazy React",
+			"path": "..\\..\\.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
