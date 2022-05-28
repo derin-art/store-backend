@@ -38,7 +38,7 @@ app.use(basicError)
 const start = async()=>{
     try{
         await connect(process.env.URL)
-        app.listen(1000,()=>{
+        app.listen(1000 || process.env.PORT,()=>{
             console.log("server is up")
         })
     }
